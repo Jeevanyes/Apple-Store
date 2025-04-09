@@ -1,25 +1,35 @@
+
 body {
-    text-align: center;
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-  }
-  
-  h2 {
-    font-size: 24px;
-    margin-top: 20px;
-  }
-  
-  .product-gallery {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 15px;
-    margin-top: 20px;
-  }
-  
-  .product-image {
-    width: 0px;
-    height: auto;
-    border-radius: 8px;
-  }
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  text-align: left;
+}
+
+h2 {
+  margin-bottom: 40px;
+  font-size: 24px;
+}
+
+.product-gallery {
+  display: flex;            
+  flex-direction: row;        
+  gap: 20px;                  
+  justify-content: flex-start;    
+  flex-wrap: wrap;           
+}
+
+.product-card {
+  background: #f1f1f1;
+  padding: 15px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  width: 100px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.product-image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
